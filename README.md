@@ -51,9 +51,9 @@ This lesson is set up as a code-along, so make sure to fork and clone the
 lesson. Then run these commands to set up the dependencies and set up the
 database:
 
-```sh
-bundle install
-bundle exec rake db:migrate
+```console
+$ bundle install
+$ bundle exec rake db:migrate
 ```
 
 ## Working with JSON APIs
@@ -187,8 +187,8 @@ data out of the response, try using `binding.pry` and experiment in the console.
 
 Now that we've got the new code in the `seeds.rb` file, we can run it:
 
-```sh
-bundle exec rake db:seed
+```console
+$ bundle exec rake db:seed
 ```
 
 And enter `rake console` to explore the new data:
